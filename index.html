@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juan Web Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Outfit', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+  <!-- Navbar -->
+  <nav class="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-bold text-blue-600">Juan Web Studio</a>
+      <div class="space-x-6 hidden md:flex">
+        <a href="index.html" class="hover:text-blue-600">Inicio</a>
+        <a href="servicios.html" class="hover:text-blue-600">Servicios</a>
+        <a href="portfolio.html" class="hover:text-blue-600">Portfolio</a>
+        <a href="contacto.html" class="hover:text-blue-600">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="pt-32 pb-20 text-center bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Impulsá tu presencia digital</h1>
+    <p class="text-lg md:text-xl mb-6">Sitios web modernos, responsivos y enfocados en resultados.</p>
+    <a href="contacto.html" class="bg-white text-blue-700 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100">Pedí tu presupuesto</a>
+  </section>
+
+  <!-- Servicios -->
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="servicios">
+    <h2 class="text-3xl font-semibold text-center mb-12">¿Qué puedo hacer por vos?</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-bold text-xl mb-2">Landing Pages</h3>
+        <p>Páginas simples, efectivas y rápidas de cargar. Ideal para captar leads o promocionar eventos.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-bold text-xl mb-2">Sitios Corporativos</h3>
+        <p>Presencia profesional para empresas, marcas o emprendimientos. Totalmente personalizable.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-md transition">
+        <h3 class="font-bold text-xl mb-2">Tiendas Online</h3>
+        <p>Catálogo, pagos integrados y gestión de productos. Diseño 100% adaptado a tu rubro.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Destacado -->
+  <section class="bg-gray-100 py-20 px-6" id="portfolio">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-semibold text-center mb-12">Proyectos recientes</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://via.placeholder.com/500x300" alt="Proyecto 1" class="w-full">
+          <div class="p-4">
+            <h3 class="font-bold text-lg">Landing para Festival</h3>
+            <p class="text-sm text-gray-600">Alta conversión con botón a WhatsApp y CTA destacada.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://via.placeholder.com/500x300" alt="Proyecto 2" class="w-full">
+          <div class="p-4">
+            <h3 class="font-bold text-lg">Tienda Online de Cosmética</h3>
+            <p class="text-sm text-gray-600">Carrito, filtros, pasarela de pago y diseño responsive.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded shadow overflow-hidden">
+          <img src="https://via.placeholder.com/500x300" alt="Proyecto 3" class="w-full">
+          <div class="p-4">
+            <h3 class="font-bold text-lg">Sitio para Estudio Jurídico</h3>
+            <p class="text-sm text-gray-600">Diseño sobrio y profesional para captar nuevos clientes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-10">
+        <a href="portfolio.html" class="text-blue-600 hover:underline font-semibold">Ver más proyectos →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-20 text-center bg-indigo-700 text-white">
+    <h2 class="text-3xl font-bold mb-4">¿Tenés una idea? Hagámosla realidad</h2>
+    <a href="contacto.html" class="mt-4 inline-block bg-white text-indigo-700 font-semibold px-6 py-3 rounded shadow hover:bg-gray-100">Hablamos ahora</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-500">
+    © 2025 Juan Web Studio · Desarrollador Freelance en Mendoza
+  </footer>
+</body>
+</html>
